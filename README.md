@@ -1,2 +1,2 @@
-# oauth2-apps
-通过OAuth2获取各网站的token等
+# OAuth2 Applications
+通过OAuth2获取/刷新各网站的token等

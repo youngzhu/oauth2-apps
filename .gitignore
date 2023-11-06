@@ -21,4 +21,4 @@
 go.work
 
 # keep your secret
-oauth2-config.yaml
+config.yaml

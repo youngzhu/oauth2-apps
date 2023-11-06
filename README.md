@@ -3,7 +3,7 @@
 
 ## 使用
 把大象装冰箱总共分几步？
-1. 修改配置文件。复制 _example-config.yaml_ 文件，或直接重命名为 **oauth2-config.yaml**，并修改配置信息
+1. 修改配置文件。复制 _config-example.yaml_ 文件，或直接重命名为 **config.yaml**，并修改配置信息
 2. 执行main函数
 3. 访问 http://localhost:8080/
 

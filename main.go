@@ -56,7 +56,9 @@ func main() {
 			return
 		}
 
-		fmt.Fprintf(w, "Token: %s", token.AccessToken)
+		fmt.Fprintf(w, "<br><b>Token:</b> %s\n\n", token.AccessToken)
+		fmt.Fprintf(w, "<br><b>Expiry</b>:</b> %s\n\n", token.Expiry)
+		fmt.Fprintf(w, "<br><b>RefreshToken:</b> %s\n\n", token.RefreshToken)
 	})
 
 	fmt.Println("Server is running on http://localhost:8080")

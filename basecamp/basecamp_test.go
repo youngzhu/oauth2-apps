@@ -27,8 +27,15 @@ func TestRefreshToken(t *testing.T) {
 		t.Error("refreshToken should not empty")
 	}
 
-	err := RefreshToken(clientID, clientSecret, refreshToken)
+	_, err := RefreshToken(clientID, clientSecret, refreshToken)
 	if err != nil {
 		t.Error(err)
+	}
+}
+
+func TestGetAccessToken(t *testing.T) {
+	_, refresh := GetAccessToken()
+	if refresh != true {
+		t.Error()
 	}
 }

@@ -36,6 +36,6 @@ func TestRefreshToken(t *testing.T) {
 func TestGetAccessToken(t *testing.T) {
 	_, refresh := GetAccessToken()
 	if refresh != true {
-		t.Error()
+		t.Error("should request a new access token by refresh")
 	}
 }

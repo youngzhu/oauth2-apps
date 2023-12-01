@@ -20,7 +20,7 @@ var Endpoint = oauth2.Endpoint{
 }
 
 var Endpoint4Refresh = oauth2.Endpoint{
-	AuthURL:  authURL,
+	//AuthURL:  authURL, // not required
 	TokenURL: tokenURL + "?type=refresh",
 }
 
